@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jutt Designs offers professional CVs, wedding cards, birthday cards, posters and custom graphic design services. Order easily on WhatsApp.">
+<meta name="keywords" content="Jutt Designs, graphic design, CV design, wedding card, birthday card, poster design, Pakistan">
+<meta name="robots" content="index, follow">
+<title>Jutt Designs | Professional Graphic Design Services</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#f7faff;color:#172033;line-height:1.7}
+header{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid #e6edf8;padding:16px 6%;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:27px;font-weight:800;color:#1554b8}.nav a{color:#23324d;text-decoration:none;margin-left:18px;font-weight:600}
+.hero{text-align:center;padding:80px 7%;background:linear-gradient(180deg,#eaf3ff,#fff)}
+.hero h1{font-size:42px;color:#123f8c;margin:0 0 10px}.hero .lead{font-size:20px;color:#43526b}.hero .urdu{font-size:18px;margin-top:8px}
+.btn{display:inline-block;text-decoration:none;border-radius:30px;padding:13px 24px;font-weight:800;margin:10px 5px}
+.green{background:#16a34a;color:#fff}.blue{background:#1554b8;color:#fff}
+section{padding:62px 7%}section h2{text-align:center;color:#123f8c;font-size:31px;margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;border:1px solid #e5ebf5;border-radius:18px;padding:25px;text-align:center;box-shadow:0 8px 24px #123f8c10}
+.icon{font-size:42px}.card h3{margin:9px 0 5px;color:#173e78}.card p{color:#667085;margin:5px 0}
+.price{font-size:21px;color:#1554b8;font-weight:800;margin-top:10px}
+.gallery{background:#eef5ff}.sample{height:160px;border-radius:14px;background:#dceaff;display:flex;align-items:center;justify-content:center;color:#1554b8;font-weight:800;font-size:20px;border:2px dashed #91b8ee}
+.contact{background:#123f8c;color:#fff;text-align:center}.contact h2{color:#fff}.contact p{color:#e3edff}
+footer{text-align:center;background:#092b62;color:#dceaff;padding:20px}
+.admin{background:#fff}.admin-wrap{max-width:1050px;margin:auto}
+.admin-box{border:1px solid #dbe5f4;border-radius:15px;padding:20px;margin:15px 0;background:#fbfdff}
+input,textarea{width:100%;padding:11px;border:1px solid #ccd8eb;border-radius:9px;margin:6px 0 12px;font-size:15px}
+button{border:0;border-radius:9px;padding:10px 15px;background:#1554b8;color:#fff;font-weight:700;cursor:pointer;margin:4px}
+.remove{background:#dc2626}.save{background:#16a34a}.hidden{display:none}
+.admin-item{display:grid;grid-template-columns:1fr 160px auto;gap:8px;align-items:center;margin:8px 0}
+.admin-item input{margin:0}.small{color:#667085;font-size:14px}
+@media(max-width:700px){header{flex-direction:column;gap:10px}.nav a{margin:0 7px;font-size:13px}.hero h1{font-size:31px}.admin-item{grid-template-columns:1fr}}
+.info-card{max-width:900px;margin:auto;background:#fff;border:1px solid #e5ebf5;border-radius:18px;padding:28px;text-align:center;box-shadow:0 8px 24px #123f8c10}.trust{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:18px;font-weight:700;color:#1554b8}.reviews{background:#f7faff}.stars{font-size:22px;color:#eab308}.faq-list{max-width:850px;margin:auto}.faq details{background:#fff;border:1px solid #e5ebf5;border-radius:12px;padding:16px 20px;margin:12px 0}.faq summary{cursor:pointer;font-weight:800;color:#173e78}.faq details p{color:#667085;margin:12px 0 0}.floating-wa{position:fixed;right:20px;bottom:20px;background:#16a34a;color:#fff;text-decoration:none;border-radius:50px;padding:13px 18px;font-weight:800;box-shadow:0 8px 24px #0003;z-index:30}.skip-link{position:absolute;left:-999px}.skip-link:focus{left:10px;top:10px;background:#fff;padding:10px;z-index:99}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#home">Skip to content</a>
+
+<header>
+<div class="logo">Jutt Designs</div>
+<nav class="nav">
+<a href="#home">Home</a><a href="#services">Services</a><a href="#prices">Prices</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<h1>Professional Graphic Design Services</h1>
+<p class="lead">Wedding Cards. CVs. Birthday Cards. Posters &amp; More</p>
+<p class="urdu">Apny design ka order ghr bethy asni sy kary</p>
+<a class="btn green" href="https://wa.me/923291819311" target="_blank">💬 WhatsApp par Order Kary</a>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="grid" id="serviceCards"></div>
+</section>
+
+<section id="prices">
+<h2>💰 Price List</h2>
+<div class="grid" id="priceCards"></div>
+</section>
+
+<section class="gallery" id="gallery">
+<h2>🖼️ Gallery — Our Samples</h2>
+<div class="grid" id="galleryCards"></div>
+</section>
+
+<section id="about" class="about"><h2>About Jutt Designs</h2><div class="info-card"><p>Jutt Designs provides creative, professional and customized graphic design services. From job-winning CVs to beautiful wedding cards, birthday cards, posters and custom designs, we focus on clean design and easy ordering through WhatsApp.</p><div class="trust"><span>✓ Professional Designs</span><span>✓ Customized for You</span><span>✓ Easy WhatsApp Ordering</span></div></div></section>
+
+<section id="reviews" class="reviews"><h2>Customer Reviews</h2><div class="grid"><div class="card"><div class="stars">★★★★★</div><p>“Professional design and easy communication. Highly recommended!”</p><h3>— Customer Feedback</h3></div><div class="card"><div class="stars">★★★★★</div><p>“My design was customized according to my requirements. Great experience.”</p><h3>— Customer Feedback</h3></div><div class="card"><div class="stars">★★★★★</div><p>“Quick response and a clean, attractive design.”</p><h3>— Customer Feedback</h3></div></div></section>
+
+<section id="faq" class="faq"><h2>Frequently Asked Questions</h2><div class="faq-list"><details><summary>How can I place an order?</summary><p>Simply click the WhatsApp button, send your requirements and discuss your design.</p></details><details><summary>What services do you provide?</summary><p>Professional CVs, wedding cards, birthday cards, poster designs and custom graphic design services.</p></details><details><summary>Can I request changes in my design?</summary><p>Yes. Share your requirements clearly so the design can be customized according to your needs.</p></details><details><summary>How do I know the price?</summary><p>Contact us on WhatsApp with your requirements for the relevant design and price details.</p></details></div></section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p>Apni requirement batayein aur apna design ghar bethay order karein.</p>
+<a class="btn green" href="https://wa.me/923291819311" target="_blank">📱 Order on WhatsApp</a>
+<p>Call / WhatsApp: 0329-1819311</p>
+</section>
+
+<section class="admin" id="admin">
+<div class="admin-wrap">
+<h2>🔐 Admin Panel</h2>
+<div id="loginBox" class="admin-box">
+<p class="small">Demo admin panel. Login to manage services, prices and gallery separately.</p>
+<input id="adminUser" placeholder="Username">
+<input id="adminPass" type="password" placeholder="Password">
+<button onclick="login()">Login</button>
+<p id="loginMsg"></p>
+</div>
+
+<div id="dashboard" class="hidden">
+<div class="admin-box">
+<h3>🛠️ Services — صرف Services</h3>
+<div id="serviceEditor"></div>
+<input id="newService" placeholder="New service name">
+<button class="save" onclick="addService()">Add Service</button>
+</div>
+
+<div class="admin-box">
+<h3>💰 Prices — صرف Prices</h3>
+<div id="priceEditor"></div>
+<p class="small">Price خالی چھوڑ سکتے ہیں اور بعد میں add کر سکتے ہیں۔</p>
+</div>
+
+<div class="admin-box">
+<h3>🖼️ Gallery — صرف Samples</h3>
+<div id="galleryEditor"></div>
+<input id="newSample" placeholder="Sample name">
+<button class="save" onclick="addSample()">Add Sample</button>
+<p class="small">یہاں صرف samples manage ہوں گے؛ prices یا services نہیں۔</p>
+</div>
+
+<button class="remove" onclick="logout()">Logout</button>
+</div>
+</div>
+</section>
+
+<footer>© 2026 Jutt Designs — Professional Graphic Design Services</footer>
+<a class="floating-wa" href="https://wa.me/923291819311" target="_blank" rel="noopener" aria-label="Order on WhatsApp">💬 WhatsApp</a>
+
+<script>
+const defaults={
+services:["CVs","Wedding Cards","Birthday Cards","Poster Design","Custom Design"],
+prices:["CV","Wedding Card","Engagement Card","Birthday Card","Poster Design","Custom Design"],
+gallery:["CV Sample","Wedding Card Sample","Birthday Card Sample","Poster Design Sample"]
+};
+let data=JSON.parse(localStorage.getItem("juttDesignsData")||"null");
+if(!data)data={services:[...defaults.services],prices:Object.fromEntries(defaults.prices.map(x=>[x,""])),gallery:[...defaults.gallery]};
+function save(){localStorage.setItem("juttDesignsData",JSON.stringify(data));renderPublic();renderAdmin()}
+function  renderPublic(){
+  serviceCards.innerHTML=data.services.map((x,i)=>...
+  priceCards.innerHTML=Object.entries(data.prices).map(...
+  galleryCards.innerHTML=data.gallery.map(x=>...
+}
+function renderAdmin(){
+  serviceEditor.innerHTML = data.services.map((x, i) => `
+    <div style="display:flex; gap:10px; margin-bottom:8px;">
+      <input type="text" value="${escAttr(x)}" onchange="data.services[${i}]=this.value" style="flex:1; padding:8px;">
+      <button onclick="data.services.splice(${i},1); renderAdmin(); renderPublic();" style="background:#dc3545; color:white; border:none; padding:8px 15px; cursor:pointer;">Remove</button>
+    </div>
+  `).join('');
+
+  priceEditor.innerHTML = Object.entries(data.prices).map(([k, v]) => `
+    <div style="display:flex; gap:10px; margin-bottom:8px;">
+      <input type="text" value="${escAttr(k)}" disabled style="flex:1; padding:8px; background:#f0f0f0;">
+      <input type="text" value="${escAttr(v)}" onchange="data.prices['${escAttr(k)}']=this.value; renderPublic();" style="flex:1; padding:8px;">
+    </div>
+  `).join('');
+
+  galleryEditor.innerHTML = data.gallery.map((x, i) => `
+    <div style="display:flex; gap:10px; margin-bottom:8px;">
+      <input type="text" value="${escAttr(x)}" onchange="data.gallery[${i}]=this.value; renderPublic();" style="flex:1; padding:8px;">
+      <button onclick="data.gallery.splice(${i},1); renderAdmin(); renderPublic();" style="background:#dc3545; color:white; border:none; padding:8px 15px; cursor:pointer;">Remove</button>
+    </div>
+  `).join('');
+}
+function addService(){let x=newService.value.trim();if(x){data.services.push(x);newService.value="";save()}}
+function addSample(){let x=newSample.value.trim();if(x){data.gallery.push(x);newSample.value="";save()}}
+function login(){
+  if(document.getElementById('dashboard')) document.getElementById('dashboard').classList.remove('hidden');
+  if(document.getElementById('loginBox')) document.getElementById('loginBox').classList.add('hidden');
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  login();
+});
+
+function logout(){dashboard.classList.add("hidden");loginBox.classList.remove("hidden");adminPass.value=""}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]))}
+function escAttr(s){return esc(s)}
+renderPublic();
+</script>
+</body>
+</html>
